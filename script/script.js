@@ -10,6 +10,22 @@ var texto1IconeAlignLeft = window.document.getElementsByClassName('fa-align-left
 
 var texto1IconeAlignRight = window.document.getElementsByClassName('fa-align-right')[0];
 
+texto1IconeSetInitial.addEventListener('click', () => {
+    texto1.style.textAlign = 'initial';
+});
+
 texto1IconeAlignCenter.addEventListener('click', () => {
     texto1.style.textAlign = 'center';
+});
+
+texto1IconeAlignJustify.addEventListener('click', () => {
+    texto1.style.textAlign = 'justify';
+});
+
+texto1IconeAlignLeft.addEventListener('click', () => {
+    texto1.style.textAlign = 'left';
+})
+
+texto1IconeAlignRight.addEventListener('click', () => {
+    texto1.style.textAlign = 'right';
 })

@@ -32,11 +32,7 @@ div.interface, div.buttons {
 }
 
 div.text-align {
-    width: 200px;
-}
-
-div.text-align > h1 {
-    width: 200px;
+    width: auto;
 }
 
 div.text-align > h1, div.text-align > p {
@@ -44,15 +40,17 @@ div.text-align > h1, div.text-align > p {
 }
 
 div.buttons > p {
-    width: 20px;
     font-size: 50px;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+div.buttons > * {
+    cursor: pointer;
+}
+
 div.text-align, div.buttons > * {
     margin: 5px;
-    cursor: pointer;
 }
 
 
