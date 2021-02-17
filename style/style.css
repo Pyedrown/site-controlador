@@ -12,7 +12,7 @@ main {
     overflow-y: scroll;
 }
 
-main > h1, div.text-align > h1 {
+main > h1, div.option-interface > h1 {
     text-align: center;
 }
 
@@ -49,8 +49,32 @@ div.buttons > * {
     cursor: pointer;
 }
 
-div.text-align, div.buttons > * {
+div.option-interface, div.buttons > * {
     margin: 5px;
 }
 
+div.text-align > h1, div.text-color > h1 {
+    width: 100%;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
 
