@@ -63,3 +63,34 @@ texto1ColorGreen.addEventListener('click', () => {
 texto1ColorBlack.addEventListener('click', () => {
     texto1.style.color = 'black';
 })
+
+//Código background-color texto1
+
+var texto1BackgroundColorBlue = window.document.getElementsByClassName('blue')[1];
+
+var texto1BackgroundColorRed = window.document.getElementsByClassName('red')[1];
+
+var texto1BackgroundColorYellow = window.document.getElementsByClassName('yellow')[1];
+
+var texto1BackgroundColorGreen = window.document.getElementsByClassName('green')[1];
+
+var texto1BackgroundColorWhite = window.document.getElementsByClassName('white')[0];
+
+texto1BackgroundColorBlue.addEventListener('click', () => {
+    texto1.style.background = 'blue';
+})
+
+texto1BackgroundColorRed.addEventListener('click', () => {
+    texto1.style.background = 'red';
+})
+
+texto1BackgroundColorYellow.addEventListener('click', () => {
+    texto1.style.background = 'yellow';
+})
+
+texto1BackgroundColorGreen.addEventListener('click', () => {
+    texto1.style.background = 'green';
+})
+texto1BackgroundColorWhite.addEventListener('click', () => {
+    texto1.style.background = 'white';
+})
