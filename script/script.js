@@ -1,5 +1,7 @@
 var texto1 = window.document.getElementById('texto1');
 
+//Código text-align texto1
+
 var texto1IconeSetInitial = window.document.getElementsByClassName('set-initial')[0];
 
 var texto1IconeAlignCenter = window.document.getElementsByClassName('fa-align-center')[0];
@@ -28,4 +30,36 @@ texto1IconeAlignLeft.addEventListener('click', () => {
 
 texto1IconeAlignRight.addEventListener('click', () => {
     texto1.style.textAlign = 'right';
+})
+
+//Código text-color texto1
+
+var texto1ColorBlue = window.document.getElementsByClassName('blue')[0];
+
+var texto1ColorRed = window.document.getElementsByClassName('red')[0];
+
+var texto1ColorYellow = window.document.getElementsByClassName('yellow')[0];
+
+var texto1ColorGreen = window.document.getElementsByClassName('green')[0];
+
+var texto1ColorBlack = window.document.getElementsByClassName('black')[0];
+
+texto1ColorBlue.addEventListener('click', () => {
+    texto1.style.color = 'blue';
+})
+
+texto1ColorRed.addEventListener('click', () => {
+    texto1.style.color = 'red';
+})
+
+texto1ColorYellow.addEventListener('click', () => {
+    texto1.style.color = 'yellow';
+})
+
+texto1ColorGreen.addEventListener('click', () => {
+    texto1.style.color = 'green';
+})
+
+texto1ColorBlack.addEventListener('click', () => {
+    texto1.style.color = 'black';
 })
